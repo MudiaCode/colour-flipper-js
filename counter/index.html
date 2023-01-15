@@ -5,17 +5,19 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
   </head>
   <body>
     <div>
-      <h1>Counter</h1>
-      <div class="number"></div>
+      <h1>Simple Counter</h1>
+      <div id="number" class="number">0</div>
       <div class="controls">
-        <button>Increase</button>
-        <button>reset</button>
-        <button>decrease</button>
+        <button id="increase" class="increase">Increase</button>
+        <button id="reset" class="reset">reset</button>
+        <button id="decrease" class="decrease">decrease</button>
       </div>
     </div>
+    <script src="app.js"></script>
   </body>
 </html>
